@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    min-height: 90vh;
+    background-color: #264653;
+}
+
+.honda-btn {
+    background: #E76F51;
+    font-size: 18px;
+}
+.honda-btn-2 {
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    font-size: 18px;
+}
+.section-heading {
+    font-size: 44px;
+    font-weight: 600;
+}
+.news-heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+hr {
+    width: 50px;
+    margin: -10px auto 0;
+    border: 1px solid red;
+}
+.grayscale {
+    filter:grayscale(100%);
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: white !important;
+}
+
+.rating i {
+    color: #E77C40;
+}
+
+.newsletter {
+    background-color: #264653;
+}
+
+footer {
+    background: #0B0D17;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+
+footer .main-app {
+    border: 2px solid #fff;
+}
+
+footer .app p {
+    margin: 0;
+    padding: 0;
+}
